@@ -1,0 +1,9 @@
+*.bcf
+*.log
+*.out
+*.aux
+*.bbl
+*.blg
+*.xml
+main.synctex.gz
+
