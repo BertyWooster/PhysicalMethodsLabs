@@ -1,0 +1,35 @@
+\documentclass[a4paper,12pt]{article}
+\include{preambula}
+
+\title{Laba}
+\author{Гадецкий Дмитрий}
+\date{today}
+\usepackage[left=1.27cm,right=1.27cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{bigstrut}
+\usepackage{comment}
+\usepackage{makecell}
+\usepackage{float}
+
+\begin{document}
+\input{titlepage}
+\renewcommand{\baselinestretch}{1.3}
+\input{annotation_and_teor}
+\input{experimental_setup}
+\input{analysis}
+\input{summary}
+
+% TODO: проверить библиографию
+\begin{thebibliography}{1}
+	\bibitem{1}
+	С.И. Ткаченко. ИССЛЕДОВАНИЕ ВЕЩЕСТВА ПО ЕГО ИЗЛУЧАТЕЛЬНОПОГЛОЩАТЕЛЬНЫМ ХАРАКТЕРИСТИКАМ.
+	МОЛЕКУЛЯРНЫЕ СПЕКТРЫ. Учебно-методическое пособие
+	\bibitem{2}
+	Справочное издание. — М.: Советская энциклопедия, 1988–1998. — 704 + 704 + 672 + 704 + 760 с.: ил. — ISBN 5-85270-034-7 (т. 1), 5-85270-061-4 (т. 2), 5-85270-019-3 (т. 3), 5-85270-087-8 (т. 4), 5-85270-101-7 (т. 5).
+	\bibitem{3}
+	Лекции по ФМИ --- Попов Игорь Алексеевич
+\end{thebibliography}
+
+%\bibliography{mybibliography}
+%\bibliographystyle{gost705}
+
+\end{document}
